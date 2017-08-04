@@ -6,7 +6,7 @@
 
 Name:           %{?scl_prefix}java_cup
 Version:        0.11b
-Release:        5.1%{?dist}
+Release:        5.2%{?dist}
 Epoch:          1
 Summary:        LALR parser generator for Java
 License:        MIT
@@ -97,6 +97,9 @@ zip -u dist/java-cup-%{pkg_version}-runtime.jar META-INF/MANIFEST.MF
 %license licence.txt
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 1:0.11b-5.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 1:0.11b-5.1
 - Automated package import and SCL-ization
 
